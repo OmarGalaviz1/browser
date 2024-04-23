@@ -1,15 +1,3 @@
 export default {
-  // https://daisyui.com/docs/themes/
-  darkTheme: 'forest',
-  lightTheme: 'bumblebee',
-
-  compatibility: {
-    uv: [
-      'discord.com'
-    ],
-    dynamic: [
-      'play.geforcenow.com',
-      'example.com'
-    ]
-  }
+  themes: ['forest', 'aqua', 'gray', 'dim', 'night', 'bumblebee', 'lemonade', 'luxury', 'sunset']
 }

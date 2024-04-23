@@ -5,27 +5,28 @@
 A simple web proxy that has many essential features for easy browsing.
 
 ## Features
+
 - [x] Tab cloaking
-- [x] Light/dark mode
-- [x] Proxy switcher (Ultraviolet/Dynamic)
-- [x] Easy navigation
-- [x] Useful menu bar
-- [ ] Favorites
-- [ ] Games
+- [x] about:blank
+- [x] Customizable panic key
+- [x] Theme switching
+- [x] Proxy control bar
+- [x] Shortcuts to popular websites
+- [x] Games
+- [x] End-to-end encryption with Epoxy and Wisp
+- [x] Transport switching for better site compatibility
+- [ ] Site compatability suggestions
+- [ ] Rammerhead support
 
 ## Run locally
 
 You need [NodeJS](https://nodejs.org) and [Git](https://git-scm.com/download) installed on your system.
 
-````bash
-# Clone + install packages
-git clone https://github.com/cafe-labs/mocha.git 
-npm install 
+```sh
+# Clone repository and install packages
+git clone https://github.com/cafe-labs/mocha.git
+npm install
 
-# To start a dev server:
-npm run dev
-
-# To build:
-npm run build
-````
-
+# Build and start the server
+npm run start
+```
